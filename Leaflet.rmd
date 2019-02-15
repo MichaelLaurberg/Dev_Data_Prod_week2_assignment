@@ -1,0 +1,16 @@
+---
+title: "February, 2nd - 2019"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r, echo=TRUE}
+library(leaflet)
+library(htmlwidgets)
+my_map <- leaflet() %>% addTiles()
+my_map
+```
+
